@@ -1,26 +1,58 @@
-# practicing recursion code
-
-def counter(n):
-    if (n == 0):
-       return 
-    print(n)
-    counter(n -1)
-counter(4) # 1 2  3 4
+import random
 
 
-# trying with loop
-
-print()
-print()
-print()
-print()
-print()
+# Function to show title
+def welcome():
+    print("=== Rock Paper Scissors ===")
 
 
-def counter(n):
- for i in range(1, n):
-   print(i)
-counter(12)
-print()
-counter(13)
+# Function for player
+def player_choice():
+    return input("Enter Rock, Paper or Scissors: ").capitalize()
 
+
+# Function for computer
+def computer_choice():
+    choices = ["Rock", "Paper", "Scissors"]
+    return random.choice(choices)
+
+
+# Function to check winner
+def winner(player, computer):
+
+    print("\nYou Chose:", player)
+    print("Computer Chose:", computer)
+
+    if player == computer:
+        print("It's a Tie!")
+
+    elif player == "Rock":
+        if computer == "Scissors":
+            print("You Win!")
+        else:
+            print("Computer Wins!")
+
+    elif player == "Paper":
+        if computer == "Rock":
+            print("You Win!")
+        else:
+            print("Computer Wins!")
+
+    elif player == "Scissors":
+        if computer == "Paper":
+            print("You Win!")
+        else:
+            print("Computer Wins!")
+
+    else:
+        print("Invalid Choice!")
+
+
+# Main Program
+welcome()
+
+player = player_choice()
+
+computer = computer_choice()
+
+winner(player, computer)

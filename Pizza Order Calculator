@@ -1,0 +1,40 @@
+# Pizza Order Calculator
+
+def show_menu():
+    print("🍕 Welcome to Pizza Shop")
+    print("1. Small Pizza  = $5")
+    print("2. Medium Pizza = $8")
+    print("3. Large Pizza  = $10")
+
+
+def get_price(choice):
+    if choice == "1":
+        return 5
+    elif choice == "2":
+        return 8
+    elif choice == "3":
+        return 10
+    else:
+        return 0
+
+
+def main():
+    show_menu()
+
+    choice = input("Choose your pizza (1, 2, or 3): ")
+    quantity = int(input("How many pizzas do you want? "))
+
+    price = get_price(choice)
+
+    if price == 0:
+        print("Invalid choice!")
+    else:
+        total = price * quantity
+        print("\n----- Receipt -----")
+        print("Price of one pizza: $", price)
+        print("Quantity:", quantity)
+        print("Total Bill: $", total)
+        print("Thank you for your order! 🍕")
+
+
+main()

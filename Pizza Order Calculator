@@ -8,7 +8,7 @@ def show_menu():
 
 
 def get_price(choice):
-    if choice == "1":
+    if choice == "!":
         return 5
     elif choice == "2":
         return 8

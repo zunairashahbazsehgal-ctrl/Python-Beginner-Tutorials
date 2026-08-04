@@ -50,3 +50,9 @@ have decimals, like 12.50.
 - Show the answer with only 2 decimals
 - Convert Rupees back to Dollars
 - Add more currencies
+
+## Author
+
+**Zunaira Shahbaz**
+
+Aspiring Data Scientist | Python Learner

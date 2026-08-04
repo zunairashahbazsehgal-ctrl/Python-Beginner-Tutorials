@@ -61,3 +61,9 @@ without guessing right.
 - Let the player choose the difficulty (1–10, 1–50, 1–100)
 - Ask "play again?" at the end instead of exiting
 - Keep score across multiple rounds
+
+## Author
+
+**Zunaira Shahbaz**
+
+Aspiring Data Scientist | Python Learner

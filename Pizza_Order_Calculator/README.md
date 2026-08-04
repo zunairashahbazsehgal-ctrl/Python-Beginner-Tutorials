@@ -57,3 +57,9 @@ can check for 0 to decide whether to print a receipt or an error.
 - Let the customer order more than one size in a single receipt
 - Add toppings with extra charges
 - Apply a discount for large orders
+
+## Author
+
+**Zunaira Shahbaz**
+
+Aspiring Data Scientist | Python Learner

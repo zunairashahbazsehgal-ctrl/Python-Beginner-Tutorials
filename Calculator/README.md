@@ -44,3 +44,10 @@ python calculator.py
 - Support decimals by using `float()` instead of `int()`
 - Add more operations like power or remainder
 
+## Author
+
+**Zunaira Shahbaz**
+
+Aspiring Data Scientist | Python Learner
+
+

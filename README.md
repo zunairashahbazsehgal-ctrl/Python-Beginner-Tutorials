@@ -12,5 +12,8 @@ This repository contains beginner-friendly Python projects that I built while le
 - Rock paper Scissors
 - Pizza Order Calculation
 - Number Guessing Game
+- Temperature_Converter
+- Quiz Game
+- Contact Book
 
 More projects will be added as I continue learning.

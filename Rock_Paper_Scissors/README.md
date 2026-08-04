@@ -68,3 +68,9 @@ else means the computer won.
 - Play best of 3 or best of 5
 - Return the result from `winner()` instead of printing it,
   so the score can be counted
+
+## Author
+
+**Zunaira Shahbaz**
+
+Aspiring Data Scientist | Python Learner

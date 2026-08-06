@@ -15,5 +15,6 @@ This repository contains beginner-friendly Python projects that I built while le
 - Temperature_Converter
 - Quiz Game
 - Contact Book
+- Student Result System
 
 More projects will be added as I continue learning.
